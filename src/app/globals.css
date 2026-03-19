@@ -1,26 +1,45 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #FDF8F0;
+  --foreground: #2c1810;
+  --maroon: #6B2D2D;
+  --maroon-deep: #4a1a1a;
+  --gold: #C9A227;
+  --gold-light: #E8D48B;
+  --cream: #F5EDE4;
+  --cream-dark: #E8DED4;
+  --white: #ffffff;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-maroon: var(--maroon);
+  --color-maroon-deep: var(--maroon-deep);
+  --color-gold: var(--gold);
+  --color-gold-light: var(--gold-light);
+  --color-cream: var(--cream);
+  --color-cream-dark: var(--cream-dark);
+  --font-sans: var(--font-source-serif);
+  --font-script: var(--font-great-vibes);
+  --font-urdu: var(--font-urdu);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Source Serif 4', Georgia, serif;
+}
+
+.font-script {
+  font-family: var(--font-great-vibes), cursive;
+}
+
+.font-urdu {
+  font-family: 'Noto Nastaliq Urdu', serif;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
 }
