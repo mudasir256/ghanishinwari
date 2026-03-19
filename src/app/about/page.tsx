@@ -29,7 +29,7 @@ export default function AboutPage() {
             </p>
             <Link
               href="/menu"
-              className="inline-block rounded-full bg-[#b3002d] px-6 py-3 text-white font-semibold hover:bg-[#8f0024] transition-colors"
+              className="inline-block rounded-full bg-[#801416] px-6 py-3 text-white font-semibold hover:bg-[#601010] transition-colors"
             >
               View our menu
             </Link>

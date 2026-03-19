@@ -53,7 +53,7 @@ export default function Hero() {
           </a>
           <Link
             href="/menu"
-            className="px-8 py-4 rounded-full bg-[#b3002d] text-white font-semibold hover:bg-[#8f0024] transition-all hover:scale-105 shadow-lg"
+            className="px-8 py-4 rounded-full bg-[#801416] text-white font-semibold hover:bg-[#601010] transition-all hover:scale-105 shadow-lg"
           >
             View Menu
           </Link>

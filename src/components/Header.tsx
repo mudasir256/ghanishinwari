@@ -55,7 +55,7 @@ export default function Header() {
               href={WHATSAPP_ORDER_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="rounded-full bg-[#b3002d] px-5 py-2.5 text-white text-sm font-semibold hover:bg-[#8f0024] transition-colors"
+              className="rounded-full bg-[#801416] px-5 py-2.5 text-white text-sm font-semibold hover:bg-[#601010] transition-colors"
             >
               Order Now
             </a>
@@ -93,7 +93,7 @@ export default function Header() {
               href={WHATSAPP_ORDER_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="rounded-full bg-[#b3002d] px-5 py-3 text-white font-semibold text-center mt-2"
+              className="rounded-full bg-[#801416] px-5 py-3 text-white font-semibold text-center mt-2 hover:bg-[#601010] transition-colors"
               onClick={() => setOpen(false)}
             >
               Order Now
